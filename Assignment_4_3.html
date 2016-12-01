@@ -1,0 +1,34 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Session 4: Assignment 4.3 | Transition in CSS</title>
+<style>
+	body{
+		width:100px;
+		margin:10px auto;
+	}
+	#optimus-prime{
+		width:100px;
+		height:100px;
+		background-color:#009688;
+		color:#ffffff;
+		font-family:"calibri",sans-serif;
+		text-align:center;
+		display:table-cell;
+		vertical-align:middle;		
+		font-size:15px;		
+		-webkit-transition:border-radius 2s linear;
+		-moz-transition:border-radius 2s linear;
+		-o-transition:border-radius 2s linear;
+		transition:border-radius 2s linear;		
+	}
+	#optimus-prime:hover{
+		border-radius:100px;
+	}
+</style>
+</head>
+<body>
+	<div id="optimus-prime">Box</div>
+</body>
+</html>
